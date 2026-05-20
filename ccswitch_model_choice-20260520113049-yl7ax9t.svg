@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">DeepSeek Pro 与 Flash 的任务选择</title>
+  <desc id="desc">复杂任务优先使用 Pro，轻量高频任务优先使用 Flash。</desc>
+  <rect width="1200" height="500" fill="#f7f8fb"/>
+  <g font-family="Arial, sans-serif">
+    <text x="600" y="70" text-anchor="middle" font-size="34" font-weight="700" fill="#172033">模型选择：把钱花在真正需要推理的地方</text>
+
+    <rect x="90" y="130" width="470" height="260" rx="8" fill="#eef4ff" stroke="#8fb0e8" stroke-width="2"/>
+    <text x="325" y="188" text-anchor="middle" font-size="32" font-weight="700" fill="#123d7a">DeepSeek Pro</text>
+    <text x="325" y="238" text-anchor="middle" font-size="22" fill="#49617f">复杂重构 / 跨文件理解</text>
+    <text x="325" y="278" text-anchor="middle" font-size="22" fill="#49617f">Bug 定位 / 架构解释</text>
+    <text x="325" y="318" text-anchor="middle" font-size="22" fill="#49617f">关键代码审查</text>
+
+    <rect x="640" y="130" width="470" height="260" rx="8" fill="#edf7f1" stroke="#95c6a6" stroke-width="2"/>
+    <text x="875" y="188" text-anchor="middle" font-size="32" font-weight="700" fill="#1d5f38">DeepSeek Flash</text>
+    <text x="875" y="238" text-anchor="middle" font-size="22" fill="#3f6950">解释报错 / 补注释</text>
+    <text x="875" y="278" text-anchor="middle" font-size="22" fill="#3f6950">生成脚本 / 小段代码</text>
+    <text x="875" y="318" text-anchor="middle" font-size="22" fill="#3f6950">轻量问答 / 高频任务</text>
+
+    <rect x="300" y="420" width="600" height="44" rx="8" fill="#ffffff" stroke="#cfd6e4" stroke-width="2"/>
+    <text x="600" y="450" text-anchor="middle" font-size="20" fill="#536176">日常默认 Flash，复杂任务切 Pro，是更稳的成本策略。</text>
+  </g>
+</svg>
