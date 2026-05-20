@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">DeepSeek + CCSwitch 配置流程</title>
+  <desc id="desc">从注册 DeepSeek 到验证 Claude Code 生效的六步流程。</desc>
+  <rect width="1200" height="430" fill="#fbfbfc"/>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#4a5568"/>
+    </marker>
+  </defs>
+  <g font-family="Arial, sans-serif">
+    <rect x="40" y="120" width="150" height="130" rx="8" fill="#ffffff" stroke="#cfd6e4" stroke-width="2"/>
+    <text x="115" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">1 注册</text>
+    <text x="115" y="204" text-anchor="middle" font-size="17" fill="#536176">DeepSeek</text>
+    <text x="115" y="230" text-anchor="middle" font-size="17" fill="#536176">开放平台</text>
+
+    <rect x="238" y="120" width="150" height="130" rx="8" fill="#ffffff" stroke="#cfd6e4" stroke-width="2"/>
+    <text x="313" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">2 密钥</text>
+    <text x="313" y="204" text-anchor="middle" font-size="17" fill="#536176">创建 API Key</text>
+    <text x="313" y="230" text-anchor="middle" font-size="17" fill="#536176">并充值</text>
+
+    <rect x="436" y="120" width="150" height="130" rx="8" fill="#ffffff" stroke="#cfd6e4" stroke-width="2"/>
+    <text x="511" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#172033">3 安装</text>
+    <text x="511" y="204" text-anchor="middle" font-size="17" fill="#536176">下载并安装</text>
+    <text x="511" y="230" text-anchor="middle" font-size="17" fill="#536176">CCSwitch</text>
+
+    <rect x="634" y="120" width="150" height="130" rx="8" fill="#fff8e8" stroke="#e2b65d" stroke-width="2"/>
+    <text x="709" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#5e4200">4 配置</text>
+    <text x="709" y="204" text-anchor="middle" font-size="17" fill="#6d5a2b">填写 URL</text>
+    <text x="709" y="230" text-anchor="middle" font-size="17" fill="#6d5a2b">和 Key</text>
+
+    <rect x="832" y="120" width="150" height="130" rx="8" fill="#eef4ff" stroke="#8fb0e8" stroke-width="2"/>
+    <text x="907" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#123d7a">5 模型</text>
+    <text x="907" y="204" text-anchor="middle" font-size="17" fill="#49617f">Pro / Flash</text>
+    <text x="907" y="230" text-anchor="middle" font-size="17" fill="#49617f">按任务选择</text>
+
+    <rect x="1030" y="120" width="150" height="130" rx="8" fill="#edf7f1" stroke="#95c6a6" stroke-width="2"/>
+    <text x="1105" y="168" text-anchor="middle" font-size="22" font-weight="700" fill="#1d5f38">6 验证</text>
+    <text x="1105" y="204" text-anchor="middle" font-size="17" fill="#3f6950">启动</text>
+    <text x="1105" y="230" text-anchor="middle" font-size="17" fill="#3f6950">Claude Code</text>
+
+    <line x1="190" y1="185" x2="228" y2="185" stroke="#4a5568" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="388" y1="185" x2="426" y2="185" stroke="#4a5568" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="586" y1="185" x2="624" y2="185" stroke="#4a5568" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="784" y1="185" x2="822" y2="185" stroke="#4a5568" stroke-width="3" marker-end="url(#arrow)"/>
+    <line x1="982" y1="185" x2="1020" y2="185" stroke="#4a5568" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <text x="600" y="326" text-anchor="middle" font-size="24" font-weight="700" fill="#172033">先验证链路，再扩大到真实项目</text>
+    <text x="600" y="364" text-anchor="middle" font-size="19" fill="#536176">不要第一次就让 Agent 修改大项目，先用小问题确认模型、余额、代理和权限都正常。</text>
+  </g>
+</svg>
